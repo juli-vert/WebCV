@@ -1,0 +1,9 @@
+/* Media Queries */
+@media(max-width: 800px){
+.header  .header-content {
+    width: 90%;
+    margin-left: 5%;
+    }
+    .header .extra li {padding: 0 10px 0 10px;}
+    .section-title {height: 80px;}
+}

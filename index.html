@@ -1,0 +1,27 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../static/css/keyframes.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="../static/css/loadbox.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <header>
+        <div class="header"><div class="header-content" id="header"></div></div>
+    </header>
+    <div class="article" id="article">
+    </div>
+    <div class="footer">
+    <span class="message-small">Pere Gil Garcia · 2020
+    <div>Icons powered by <a href="https://fontawesome.com/icons?d=gallery&m=free" title="fontawesome">Fontawesome</a> terms & conditions <a href="https://fontawesome.com/license" title="License">License</a></div></span>
+    </footer >
+    <script type="text/javascript" src="./data.js"></script>
+    <script type="text/javascript" src="./lib.js"></script>
+    <script>
+    let init = () => {
+        lib.build()
+    }
+    window.onload = init()
+    </script>
+</body>
