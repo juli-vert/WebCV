@@ -1,9 +1,13 @@
+@page {
+    margin: 4mm 0mm 0mm 0mm;
+}
 body {
     font: 15px/1.5 Segoe UI,Fira Sans,Helvetica, sans-serif,Arial;
-    margin: 0;
+    margin: 0mm;
     padding: 0;
     text-align: center;
     height: 100%;
+    width: 100%;
     background-color: whitesmoke;
     color: black;
 
@@ -30,11 +34,19 @@ a{
 .message-small {
     font-size: 10px;
 }
+.message-small-black {
+    font-size: 10px;
+    font-weight: bold;
+}
 
-.message-medium {
+.message-medium-justified {
     font-size: 16px;
     text-align: justify;
     text-justify: inter-word;
+}
+
+.message-medium {
+    font-size: 16px;
 }
 
 .message-title {
@@ -101,20 +113,33 @@ a{
     padding-bottom: 5px;
     text-align: center;
 }
+.div-letter {
+    width: 80%;
+    text-align: justify;
+    text-justify: auto;
+    font-style: italic;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
 
 .column-main {
-    width: 38%;
-    max-width: 38%;
+    width: 50%;
+    max-width: 60%;
     display: table-cell;
     padding-left: 10px;
     padding-right: 15px;
 }
 .column-side {
     width: 15%;
+    max-width: 15%;
     display: table-cell;
     padding-left: 5px;
     padding-right: 5px;
-    border-left: 1px solid gray;
+    border-right: 1px solid gray;
 }
 
 .footer {
