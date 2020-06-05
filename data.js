@@ -33,7 +33,7 @@ const data = ( ()=> {
                 'details': 'Working about 6 months exclusively in a huge Data Centre migration project in London. <br>Managing the Data Centre network infrastructure in Europe of NTT mainly based in Cisco Nexus. <br>Deploying the Enterprise Cloud product abroad. <br> Developing a templating system in Python/django for configuraiton automation',
             },
             {
-                'title': 'Techncial Architect',
+                'title': 'Technical Architect',
                 'where': 'Atlas IT',
                 'period': 'Oct 2008 - Mar 2013',
                 'details': 'Direct interaction with client. Managing dedicated network infrastructure for about 15 customers and taking care of the shared one. I deployed a "cloud-style infrastructure" for PaaS in Sydney using Vmware, Netapp, Cisco and Fortinet',
