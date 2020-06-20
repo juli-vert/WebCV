@@ -11,7 +11,10 @@
     .column-side {
         flex-direction: row;
         text-align: center;
-        flex: auto-fit
+        border-right: none;
+        border-bottom: 1px gray solid;
+        padding-right: 0px;
+        padding-bottom: 2px;
     }
     .message-title {
         padding: 0px 10px 0px 10px;
