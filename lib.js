@@ -20,7 +20,7 @@ let lib = ( () => {
         return header_item
     }
     
-    let exp = (item, title, align) => {
+    let exp = (item, title, align, area) => {
         let aux = ''
         item.forEach(it = (it) =>{
             aux= aux+`<div class="div-cv">
@@ -30,15 +30,15 @@ let lib = ( () => {
                 <p class="${align}">${it['details']}</p>
             </div>`
         })
-        let fin = `<div class="column-main"><div class="section-title">${title}</div>${aux}</div>`
+        let fin = `<div class="column-${area}"><div class="section-title">${title}</div>${aux}</div>`
         return fin
     }
     
     let sks = (item) => {
         let aux = ''
         item.forEach(it = (it) => {
-            aux= aux+`<p class="message-title">${it['name']}</p>
-            <p class="message-small">${it['expertise']}</p>`
+            aux= aux+`<div class="message-title"><p>${it['name']}</p>
+            <p class="message-small">${it['expertise']}</p></div>`
         })
         let fin = `<div class="column-side">${aux}</div>`
         return fin
@@ -48,8 +48,8 @@ let lib = ( () => {
         let aux = ''
         aux = header(dt['personal'])
         document.getElementById("header").innerHTML = aux
-        let we = exp(dt['professional'], "Working Experience", "message-medium-justified")
-        let se = exp(dt['studies'], "Education", "message-medium")
+        let we = exp(dt['professional'], "Working Experience", "message-medium-justified", "professional")
+        let se = exp(dt['studies'], "Education", "message-medium", "studies")
         let sk = sks(dt['skills'], "Skills")
         let lt = `<div class="div-letter">${dt['letter']}</div>`
         document.getElementById('article').innerHTML= lt+sk+we+se

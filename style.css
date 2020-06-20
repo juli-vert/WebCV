@@ -2,15 +2,12 @@
     margin: 4mm 0mm 0mm 0mm;
 }
 body {
-    font: 15px/1.5 Segoe UI,Fira Sans,Helvetica, sans-serif,Arial;
-    margin: 0mm;
+    font: 15px/1.5 Oswald, sans-serif,Arial;
     padding: 0;
-    text-align: center;
-    height: 100%;
-    width: 100%;
+    width: 95%;
     background-color: whitesmoke;
     color: black;
-
+    margin: auto;
 }
 
 a{
@@ -23,6 +20,7 @@ a{
     font-size: 30px;
     font-weight: bold;
     height: 40px;
+    text-align: center;
 }
 
 .little-text {
@@ -59,27 +57,37 @@ a{
     font-weight: bolder;
 }
 
+.main-grid {
+    display: grid; 
+    
+    grid-template-rows: 0fr 10fr 0fr;
+    grid-template-areas:
+        "header"
+        "article"
+        "footer"
+}
 .header {
-    height: 100px;
-    width: 100%;
+    grid-area: header;
+    width: 90%;
     margin: auto;
     text-align: center;
     font-size: 50px;
     border-bottom: 3px solid gray;
 }
-.header  .header-content {
-    width: 60%;
-    margin-left: 20%;
+
+.header-content {
+    display: flex;
+    align-items: center;
 }
 
 .header .logo {
-    float: left;
     width: 50%;
     margin: auto;
-    text-align: left;
-    margin-top: -8px;
     font-weight: bold;
+    font-family: 'Lobster';
+    flex: 1 1 auto;
 }
+
 .header .logo .sub{
     font-size: 14;
     font-style: italic;
@@ -87,12 +95,9 @@ a{
 }
 
 .header .extra {
-    float: right;
-    margin: auto;
-    margin-top: 20px;
     width: 50%;
-    text-align: right;
     font-size: 15px;
+    flex: 1 1 auto;
 }
 
 .header .extra ul {
@@ -103,54 +108,55 @@ a{
     display: inline;
     padding: 0 20px 0 20px;        
 }
-
 .article {
-    min-height: 80%;
-    width: 95%;
+    grid-area: article;
+    width: 90%;
     margin: auto;
-    position: relative;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-align: center;
+    display: grid;
+    grid-template-rows: minmax(0fr, 3fr) minmax(0fr, 7fr);
+    grid-template-columns: minmax(0fr, 1fr) repeat(2, minmax(5fr, 6fr));
+    grid-gap: 10px;
+    grid-template-areas:
+        "letter letter letter"
+        "skills professional studies"
 }
 .div-letter {
-    width: 80%;
+    grid-area: letter;
     text-align: justify;
     text-justify: auto;
     font-style: italic;
-    font-size: 18px;
-    margin: auto;
-    margin-top: 5px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+    font-size: 15px;
     border-bottom: 1px solid gray;
+    padding: 5px 0px 5px 0px;
 }
 
-.column-main {
-    width: 50%;
-    max-width: 60%;
-    display: table-cell;
-    padding-left: 10px;
-    padding-right: 15px;
-}
 .column-side {
-    width: 15%;
-    max-width: 15%;
-    display: table-cell;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-right: 1px solid gray;
+    grid-area: skills;
+    display: flex;
+    flex-direction: column;
+}
+
+.column-professional {
+    grid-area: professional;
+    display: flex;
+    flex-direction: column;
+}
+.column-studies {
+    grid-area: studies;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
-    width: 100%;
+    grid-area: footer;
+    text-align: center;
+    width: 90%;
     margin: auto;
     border-top: 3px solid gray;
+    padding: 5px 0px 5px 0px;
 }
 
 .div-cv {
-    padding-top: 5px;
-    padding-bottom: 5px;
     margin: auto;
     text-align: center;
     width: 100%;

@@ -1,9 +1,19 @@
 /* Media Queries */
-@media(max-width: 800px){
-.header  .header-content {
-    width: 90%;
-    margin-left: 5%;
+@media(max-width: 1000px){
+    .article {
+        grid-template-rows: minmax(0fr, 3fr) minmax(0fr, 1fr) minmax(0fr, 5fr);
+        grid-template-columns: repeat(auto-fill, minmax(0fr, 8fr));
+        grid-template-areas:
+        "letter letter"
+        "skills skills" 
+        "professional studies"
     }
-    .header .extra li {padding: 0 10px 0 10px;}
-    .section-title {height: 80px;}
+    .column-side {
+        flex-direction: row;
+        text-align: center;
+        flex: auto-fit
+    }
+    .message-title {
+        padding: 0px 10px 0px 10px;
+    }
 }
