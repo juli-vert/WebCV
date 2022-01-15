@@ -1,6 +1,6 @@
 const data = ( ()=> {
     const vars = {
-        'letter' : "All-purpose engineer with more than 15 years of experience in the IT industry. Strong knowledge about Infrastructure, reliability, high availability and maintanibility.<br>As a proactive and self-motivated engineer-minded IT professional, I'm trying to do a lot of things by my own. Trying to analyze the business needs, the IT related environment and the budget to provide the most suitable solutions.<br>Despite of being a network engineer for the vast majority of my career I've always tried to do as many things as possible, automatation with custom scripts, building my own solutions using the available tools at every moment and nowadays building a lot of things with python and web fronted.",
+        'letter' : "All-purpose engineer with more than 15 years of experience in the IT industry. Strong knowledge about Infrastructure, reliability, high availability and maintanibility.<br>As a proactive and self-motivated engineer-minded IT professional, I'm trying to do a lot of things by my own. Trying to analyze the business needs, the IT related environment and the budget to provide the most suitable solutions.<br>Despite of being a network engineer for the vast majority of my career, I've always tried to do as many things as possible like automation, scripting, building dedicated solutions using the available tools and, nowadays, working around Kubernetes networking.",
         'personal' : {
             'name': 'Pere Gil',
             'contact' : [
@@ -93,7 +93,7 @@ const data = ( ()=> {
         'skills' : [
             {
                 'name': 'Networking',
-                'expertise': 'Routing, Switching, Firewalls, Network programmability, Load Balancing',
+                'expertise': 'Routing, Switching, Firewalls, Network programmability, Load Balancing, K8s API Gateway, Istio',
             },
             {
                 'name': 'Virtualization',
@@ -104,7 +104,7 @@ const data = ( ()=> {
                 'expertise': 'Netapp, NAS, SAN, iSCSI',
             },
             {
-                'name': 'Devops',
+                'name': 'SRE & DevOps',
                 'expertise': 'Kubernetes, Helm, ArgoCD, AWS',
             },
             {
