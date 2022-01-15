@@ -56,7 +56,7 @@ const data = ( ()=> {
                 'title': 'Computer Science Engineer',
                 'where': 'UPC',
                 'period': '2001-2010',
-                'details': 'Mainly focused in OS and Networks<br>NFC of 6.54',
+                'details': 'Mainly focused in OS and Networks<br>Grade: 6.54',
             },
             {
                 'title': 'Fortinet Certified',
