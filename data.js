@@ -93,7 +93,7 @@ const data = ( ()=> {
         'skills' : [
             {
                 'name': 'Networking',
-                'expertise': 'Routing, Switching, Firewalls, Network programmability, Load Balancing, addingblablab, blablablabla, balabalabalabal ',
+                'expertise': 'Routing, Switching, Firewalls, Network programmability, Load Balancing',
             },
             {
                 'name': 'Virtualization',
