@@ -115,8 +115,8 @@ a{
     width: 90%;
     margin: auto;
     display: grid;
-    grid-template-rows: minmax(0fr, 3fr) minmax(0fr, 7fr);
-    grid-template-columns: minmax(0fr, 1fr) repeat(2, minmax(5fr, 6fr));
+    grid-template-rows: minmax(0, 3fr) minmax(0, 7fr);
+    grid-template-columns: minmax(0, 2fr) minmax(0, 4fr) minmax(0, 2fr);
     grid-gap: 10px;
     grid-template-areas:
         "letter letter letter"
