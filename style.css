@@ -51,6 +51,7 @@ a{
 .message-title {
     font-size: 22px;
     font-weight: bold;
+    overflow: hidden;
 }
 
 .color-dark {
@@ -137,7 +138,6 @@ a{
     flex-direction: column;
     padding-right: 2px;
     border-right: 1px solid gray;
-    overflow: hidden;
 }
 
 .column-professional {
