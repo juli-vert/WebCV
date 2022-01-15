@@ -4,10 +4,10 @@
         grid-template-rows: minmax(0, 20%) minmax(0, 10%) minmax(0, 50%) minmax(0, 20%);
         grid-template-columns: 100%;
         grid-template-areas:
-        "letter"
-        "skills" 
-        "professional"
-        "studies
+            "letter"
+            "skills" 
+            "professional"
+            "studies
     }
     .column-side {
         flex-direction: row;
