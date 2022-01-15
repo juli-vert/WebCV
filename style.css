@@ -31,9 +31,8 @@ a{
 
 .message-small {
     font-size: 10px;
-    text-align: justify;
-    text-justify: inter-word;
 }
+
 .message-small-black {
     font-size: 10px;
     font-weight: bold;
@@ -138,6 +137,7 @@ a{
     flex-direction: column;
     padding-right: 2px;
     border-right: 1px solid gray;
+    overflow: hidden;
 }
 
 .column-professional {
