@@ -1,12 +1,13 @@
 /* Media Queries */
 @media(max-width: 1000px){
     .article {
-        grid-template-rows: minmax(0fr, 3fr) minmax(0fr, 1fr) minmax(0fr, 5fr);
-        grid-template-columns: repeat(auto-fill, minmax(0fr, 8fr));
+        grid-template-rows: minmax(0, 20%) minmax(0, 10%) minmax(0, 50%) minmax(0, 20%);
+        grid-template-columns: repeat(auto-fill, minmax(0, 8fr));
         grid-template-areas:
-        "letter letter"
-        "skills skills" 
-        "professional studies"
+        "letter"
+        "skills" 
+        "professional"
+        "studies
     }
     .column-side {
         flex-direction: row;
