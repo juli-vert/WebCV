@@ -10,7 +10,7 @@ const data = ( ()=> {
                 },
                 {
                     'method':'github',
-                    'url': 'https://github.com/julivert82'
+                    'url': 'https://github.com/juli-vert'
                 },
                 {
                     'method':'linkedin',
