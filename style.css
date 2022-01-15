@@ -31,6 +31,8 @@ a{
 
 .message-small {
     font-size: 10px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .message-small-black {
     font-size: 10px;
@@ -147,6 +149,7 @@ a{
     grid-area: studies;
     display: flex;
     flex-direction: column;
+    padding-left: 2px;
     border-left: 1px solid gray;
 }
 
