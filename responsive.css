@@ -2,7 +2,7 @@
 @media(max-width: 1000px){
     .article {
         grid-template-rows: minmax(0, 20%) minmax(0, 10%) minmax(0, 50%) minmax(0, 20%);
-        grid-template-columns: repeat(auto-fill, minmax(0, 8fr));
+        grid-template-columns: 100%;
         grid-template-areas:
         "letter"
         "skills" 
@@ -16,6 +16,18 @@
         border-bottom: 1px gray solid;
         padding-right: 0px;
         padding-bottom: 2px;
+    }
+    .column-professional {
+        flex-direction: row;
+        text-align: center;
+        border-bottom: 1px gray solid;
+        padding-bottom: 2px;
+    }
+    .column-studies {
+        flex-direction: row;
+        text-align: center;
+        padding-left: 0px;
+        border-left: none;
     }
     .message-title {
         padding: 0px 10px 0px 10px;
