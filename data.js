@@ -93,11 +93,11 @@ const data = ( ()=> {
         'skills' : [
             {
                 'name': 'Networking',
-                'expertise': 'Routing, Switching, Firewalls, Network programmability, Load Balancing ',
+                'expertise': 'Routing, Switching, Firewalls, Network programmability, Load Balancing, addingblablab, blablablabla, balabalabalabal ',
             },
             {
                 'name': 'Virtualization',
-                'expertise': 'VMware 5,6'
+                'expertise': 'VMware, Docker'
             },
             {
                 'name': 'Storage',
@@ -105,7 +105,7 @@ const data = ( ()=> {
             },
             {
                 'name': 'Devops',
-                'expertise': 'Kubernetes, Docker, Swarm, AWS, Helm, ArgoCD',
+                'expertise': 'Kubernetes, Helm, ArgoCD, AWS',
             },
             {
                 'name': 'Programming',
