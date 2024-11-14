@@ -1,6 +1,6 @@
 const data = ( ()=> {
     const vars = {
-        'letter' : "All-purpose engineer with more than 15 years of experience in the IT industry. Strong knowledge about Infrastructure, reliability, high availability and maintanibility.<br>As a proactive and self-motivated engineer-minded IT professional, I'm trying to do a lot of things by my own. Trying to analyze the business needs, the IT related environment and the budget to provide the most suitable solutions.<br>Despite of being a network engineer for the vast majority of my career, I've always tried to do as many things as possible like automation, scripting, building dedicated solutions using the available tools and, nowadays, working around Kubernetes networking.",
+        'letter' : "All-purpose engineer with more than 20 years of experience in the IT industry. Strong knowledge about Infrastructure, reliability, high availability and maintanibility.<br>As a proactive and self-motivated engineer-minded IT professional, I'm trying to do a lot of things by my own. Trying to analyze the business needs, the IT related environment and the budget to provide the most suitable solutions.<br>Despite of being a network engineer for the vast majority of my career, I've always tried to do as many things as possible like automation, scripting, building dedicated solutions using the available tools and, nowadays, working around Kubernetes networking.",
         'personal' : {
             'name': 'Pere Gil',
             'contact' : [
@@ -27,7 +27,7 @@ const data = ( ()=> {
                 'details': "Leading one of the Core Infrastructure teams. Working on the Application Routing layer, managing DNS and Load Balancers both on premises and in the Cloud. Building a fully Kubernetes-based Load Balancing platform hosted in public Cloud providers",
             },
             {
-                'title': 'IT technical Lead',
+                'title': 'IT Infrastructure Manager & Tech Lead',
                 'where': 'Telemedicine clinic',
                 'period': 'Jul 2015 - Dec 2020',
                 'details': "As Infrastructure manager of TMC I'm in charge of the maintenance of the key systems of the company, these include: the complex Network distributed in 4 Data Centres and 4 offices and Remote users (about 300) using BGP and IPSec VPNs, VMware, Windows/Linux servers and SAN Netapp Storage. <br>As IT technical Lead: Managing the whole IT team from the technical perspective, being the technical reference of the team, as well as, managing all the technical projects within the colleagues. <br>In addition to that, I'm leading some of the R&D projects trying to build new products according with the business needs in the area of the Telemedicine. As a part of this area, I'm developing some PoCs, models or even production assets in Python/JS/c#, creating redundant Infrastructure architectures",
@@ -108,8 +108,8 @@ const data = ( ()=> {
                 'expertise': 'Kubernetes, Helm, ArgoCD, AWS',
             },
             {
-                'name': 'Programming',
-                'expertise': 'Python, Go, Javascript',
+                'name': 'Development',
+                'expertise': 'Go, Python, Javascript',
             }
         ]
     }
