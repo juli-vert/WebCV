@@ -24,7 +24,7 @@ const data = ( ()=> {
                 'title': 'Lead Software Engineer',
                 'where': 'New Relic',
                 'period': 'Jan 2021 - Current',
-                'details': "Leading a Core Infrastructure team in architecting and delivering a cloud-native application routing platform, unifying API gateway, load balancing, proxy, and security services on Kubernetes across public cloud environments.<br>Architected and automated end-to-end provisioning and domain configuration workflows, scaling system capacity to 140,000+ RPS while minimizing infrastructure overhead.",
+                'details': "Leading a Core Infrastructure team in architecting and delivering a cloud-native application routing platform, unifying API gateway, load balancing, proxy, and security services on Kubernetes across public cloud environments.<br>Architected and automated end-to-end provisioning and domain configuration workflows, scaling system capacity to 140,000+ RPS while minimizing infrastructure overhead.<br>Spearheaded the engineering team responsible for New Relic’s UI traffic entry point, directing global CDN and DNS strategies to ensure high availability and low latency.",
             },
             {
                 'title': 'IT Infrastructure Manager & Tech Lead',
