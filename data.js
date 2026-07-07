@@ -30,25 +30,25 @@ const data = ( ()=> {
                 'title': 'IT Infrastructure Manager & Tech Lead',
                 'where': 'Telemedicine clinic',
                 'period': 'Jul 2015 - Dec 2020',
-                'details': "Engineered and managed a global network infrastructure spanning 5 data centers (Spain, Sydney, UK, Sweden, France), 4 offices, and hundreds of remote users, ensuring 99.9% uptime with BGP and IPSec VPNs.<br>Architected the company's core compute platform using VMware, Windows/Linux servers, and NetApp storage solutions to support all key business systems.<br>Provided technical leadership and mentorship for the IT team, overseeing project management and fostering a culture of technical excellence.<br>Spearheaded R&D initiatives for new teleradiology products, developing proofs-of-concept (PoCs) and production-ready assets in Python, JavaScript, and .NET.<br>Developed a full-stack online radiologist assessment platform during the pandemic, fully integrated with a web-based DICOM viewer and automated reporting, which enabled the company to continue its recruitment process without interruption.",
+                'details': "Engineered and managed a global network infrastructure spanning 5 data centers (Spain, Sydney, UK, Sweden, France), 4 offices, and hundreds of remote users, ensuring 99.9% uptime with BGP and IPSec VPNs.<br>Architected the company's core compute platform using VMware, Windows/Linux servers, and NetApp storage solutions to support all key business systems.<br>Provided technical leadership and mentorship for the IT team, overseeing project management and fostering a culture of technical excellence.<br>Spearheaded R&D initiatives for new teleradiology products, extended knowledge about medical standards as DICOM and HL7, developing proofs-of-concept (PoCs) and production-ready assets in Python, JavaScript, and .NET.<br>Developed a full-stack online radiologist assessment platform during the pandemic, fully integrated with a web-based DICOM viewer and automated reporting, which enabled the company to continue its recruitment process without interruption.",
             },
             {
                 'title': 'Network Engineer',
                 'where': 'NTT Europe',
                 'period': 'Mar 2013 - Jun 2015',
-                'details': 'Working about 6 months exclusively in a huge Data Centre migration project in London. <br>Managing the Data Centre network infrastructure in Europe of NTT mainly based in Cisco Nexus. <br>Deploying the Enterprise Cloud product abroad. <br> Developing a templating system in Python/django for configuraiton automation',
+                'details': 'Key contributor to a massive, 6-month data center migration initiative in London, ensuring zero-downtime transitions for critical infrastructure. <br>Overseered European data center networking for NTT, driving high availability and performance across core Cisco Nexus switching infrastructure. <br>Contribute to the international deployment and rollout of the Enterprise Cloud product suite. <br> Built a custom Python/Django templating engine to automate infrastructure configurations and enforce consistency across environments',
             },
             {
                 'title': 'Technical Architect',
                 'where': 'Atlas IT',
                 'period': 'Oct 2008 - Mar 2013',
-                'details': 'Direct interaction with client. Managing dedicated network infrastructure for about 15 customers and taking care of the shared one. I deployed a "cloud-style infrastructure" for PaaS in Sydney using Vmware, Netapp, Cisco and Fortinet',
+                'details': 'Maintained direct client-facing relationships, managing dedicated network infrastructure for 15+ enterprise customers alongside the core shared environment. Engineered and deployed (2012) a highly scalable, greenfield Private Cloud (PaaS) infrastructure in Sydney utilizing a VMware, NetApp, Cisco, and Fortinet stack',
             },
             {
                 'title': 'IT technician & Marketing manager',
                 'where': 'AD+ Medical',
                 'period': 'Sep 2004 - Oct 2008',
-                'details': 'Mainly focused on advertisement and clinics design using Photoshop, Corel Draw, Freehand, Floorplan and Autocad. <br>Supporting local users in IT requests',
+                'details': 'Designed high-impact advertising materials and clinic layouts using Photoshop, Corel Draw, Freehand, Floorplan, and AutoCAD. <br>Provided cross-functional IT support to local users, troubleshooting technical issues and maintaining office productivity',
             }
         ],
         'studies' : [
